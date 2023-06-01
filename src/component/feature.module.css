@@ -1,0 +1,40 @@
+
+.data{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: antiquewhite;
+    width: 100%;
+    height:500px ;
+  margin-left:0px ;
+    margin-top:150px ;
+    margin-bottom:-50px ;
+ 
+ 
+}
+.image1{
+margin-left:45px ;
+
+margin-top: 100px;
+
+
+}
+.image2{
+    width: 90%;
+    box-shadow:3px 3px 4px black ;
+border:1px solid white ;
+margin-top: 10px;
+}
+.sujata{
+    margin-top: 20px;
+
+   line-height:1.5 ;
+}
+.feature{
+ position: absolute;
+margin-top: 200px;
+margin-left: 50px;
+}
+.feature p{
+    font-size: 10px;
+    color: red;
+}

@@ -1,0 +1,102 @@
+*{
+    margin:0 ;
+    padding:0 ;
+}
+.navbar ul {
+    display: flex;
+   justify-content: flex-end;
+   margin-top:-50px ;
+   list-style: none;
+   gap:50px ;
+   margin-right:100px ;
+}
+.navbar li a{
+    text-decoration:none ;
+    color: black;
+   
+}
+.navbar li a:hover{
+    color: aliceblue;
+}
+
+
+.cart{
+
+    font-size: 25px;
+    color: red;
+    
+ 
+   
+}
+  
+   
+    .carttotal {
+
+display: flex;
+  margin-top: -37px;
+  margin-left:20px ;
+    font-size:10px
+}
+.hammenu{
+    display: none;
+}
+.close{
+    display: none;
+}
+@media screen  and (max-width:768px){
+   .navbar ul {
+    display: block;
+    
+  
+ 
+   } 
+   .hammenu{
+    display: block;
+   
+  text-align: right;
+  margin-top: -45px;
+  margin-right: 10px;
+
+  
+   }
+   .close{
+    display: block;
+    cursor: pointer;
+    padding: 20px;
+   }
+   .navbar ul li{
+    padding-top:75px ; 
+ 
+padding-left: 85px;
+
+ 
+
+   }
+  
+   .navbar{
+  display: none; 
+    /*OR transform:translateX(100%) */
+    
+    position: fixed; 
+   
+    height: 100vh; 
+       top:0;
+       right: 0;
+     background-color:bisque;
+      z-index: 9999; 
+       transition: all 0.4s ease;
+     width: 100%;
+   text-align: center;
+   }
+   .shownavbar{
+    display: block;
+   }
+   .carttotal{
+    display: grid;
+    margin-left: 24px;
+    /* margin-top: -35px; */
+   }
+  
+  
+ 
+}

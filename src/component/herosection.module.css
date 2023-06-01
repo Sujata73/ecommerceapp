@@ -1,0 +1,66 @@
+*{ margin: 0;
+padding:0 ;
+}
+.container{
+    margin-top: 200px;
+    margin-left: 20px;
+  
+}
+.intro{
+    color: red;
+    font-size: 8px;
+    margin-bottom: -2px;
+}
+.shop button{
+    background-color: orange;
+    border:none ;
+    padding: 10px;
+    border-radius:8px ;
+    margin-top: 30px;
+}
+.images .image1{
+  width: 60%;  
+  height: 250px;
+}
+.grid{
+    display: grid;
+   
+    gap: 150px; ;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.box{
+    background-color:orange ;
+    height: 200px;
+    width: 50%;
+    margin-top: -300px;
+    margin-left:130px ;
+}
+.herosection1{
+    margin-left: 150px;
+}
+.herosection1 p{
+   
+    font-size:10px ;
+    line-height:1.5 ;
+
+   
+}
+.para{
+    margin-top: 10px;
+    text-align: justify;
+  
+}
+@media screen and (max-width:768px){
+
+   .container{
+    margin-left:-80px ;
+   } 
+   .herosection1 p{
+    font-size: 10px;
+    line-height: 1.5;
+   }
+   .images{
+    margin-top: 45px;
+   }
+}

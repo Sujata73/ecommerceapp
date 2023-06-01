@@ -1,0 +1,146 @@
+.footerWrapper {
+  background-color: rgba(139, 139, 139, 0.404);
+  position: relative;
+}
+
+.contactshort {
+  background-color: rgb(243, 213, 173);
+  height: 80px;
+  width: 40%;
+  display: flex;
+position: absolute;
+  border-radius: 5px;
+  transform: translateY(-50%);
+margin-left:425px ;
+}
+
+.get {
+  margin-left: 250px;
+  margin-top: 20px;
+}
+
+.get button a {
+  text-decoration: none;
+  color: black;
+}
+
+.ready {
+
+  margin-top: 30px;
+  padding-left: 30px;
+
+}
+
+.ready h3 {
+  font-size: 10px;
+}
+
+.footer {
+  margin-top: 100px;
+  height: 230px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  padding-top: 100px;
+  padding-left: 150px;
+
+
+
+}
+
+.footerabout p {
+  font-size: 10px;
+  width: 35%;
+  text-align: justify;
+}
+
+.footersubscribe {
+  line-height: 3;
+  margin-left: -70px;
+  margin-top: -20px;
+}
+
+.footersubscribe input {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+.social {
+  padding: 0 8px 0 8px;
+  margin-top: 10px;
+  font-size: 20px;
+
+  column-gap: 30px;
+
+}
+
+.callus a {
+  text-decoration: none;
+  color: black;
+
+}
+
+.callus {
+  margin-left: -100px;
+
+}
+
+.footerbottomsection {
+  margin-top: 30px;
+  border-top: 1px solid gray;
+  padding: 20px 0px;
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .contactshort {
+    margin-left: 200px;
+  }
+
+  .ready {
+    margin-top: 25px;
+  }
+
+  .ready h3 {
+    font-size: 8px;
+
+  }
+ 
+
+  .get {
+    margin-left: 60px;
+  }
+
+  .get button a {
+    font-size: 8px;
+  }
+  .footerabout{
+    position: relative;
+    left: -100px;
+  }
+  .footerabout p{
+  width: 100%;
+  font-size:15px ;
+  }
+  .footersubscribe{
+    line-height: 1; 
+    margin-top:0px ;
+   position: relative;
+   left: 10px;
+  }
+  .footersubscribe h3{
+ font-size: 20px; 
+  }
+  .footersubscribe input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .callus{
+   position: relative;
+   left:90px ;
+  }
+
+}
