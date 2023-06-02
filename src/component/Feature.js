@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import axios from  'axios'
 import styles from './feature.module.css'
+import FormatPrice from '../Helpers/FormatPrice'
 
 const Feature = () => {
     const[data,setdata]=useState([])
@@ -26,7 +27,7 @@ const Feature = () => {
 <img src={item.image} className={styles.image2}/>
 <div className={styles.sujata}>
 <h4>Name:{item.name}</h4>
-<h4> Price:Rs {item.price}</h4>
+<h4>  {<FormatPrice price={item.price}/>}</h4>
 <h4>Company:{item.company}</h4>
 </div>
 </div>
